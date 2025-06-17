@@ -1,0 +1,5 @@
+{
+    "name": "Test NFT #1234",
+    "description": "This is NFT #1234, deployed on the Holesky testnet",
+    "image": "https://bsnyr03.github.io/BlockchainExercises/images/BToken.png"
+}

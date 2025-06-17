@@ -352,11 +352,6 @@
 						"internalType": "uint256",
 						"name": "tokenId",
 						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "uri",
-						"type": "string"
 					}
 				],
 				"name": "mintToken",
@@ -481,6 +476,24 @@
 					}
 				],
 				"name": "setApprovalForAll",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "tokenId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "uri",
+						"type": "string"
+					}
+				],
+				"name": "setTokenURI",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -898,11 +911,11 @@
 			]
 		},
 		"Exercise5_NFT.sol": {
-			"keccak256": "0x8b32932b53f5bea2c4c2b1f1d6047ddd36a268b2efd413b3c5beb30b52620955",
+			"keccak256": "0xc6a3a177e8dd0b5c6b6c7b9a41cb2c8f22ae7cf9ea3be3a410287eb6740ff839",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://bd3d4e5b847ba1820f5beebed40975445cc33bae39fbb88e19ae7eb2897e1453",
-				"dweb:/ipfs/QmWfteJ9Ptx28VcDqEhMCEs5kyRxaTDuBxw4RXfx1CGW8a"
+				"bzz-raw://3ef43b1970e8f22aa81cab2c011a6a284967d3a2c9d58a14b6ac4813c19bd39a",
+				"dweb:/ipfs/QmQyJdwJQo6dfjTF2X6seXwdv9pcSTyL3NrPHKnaadoGnk"
 			]
 		}
 	},
